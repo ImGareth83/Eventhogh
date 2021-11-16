@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5ADEDC5C5689B1CD36A93E7E /* libPods-Eventhogh.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A9D53FE27A169F7E62C221 /* libPods-Eventhogh.a */; };
+		8303C52624725DC100BC7A03 /* HTMLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8303C52524725DC100BC7A03 /* HTMLHelper.swift */; };
+		830702812432082500C73383 /* ETQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830702802432082500C73383 /* ETQRViewController.swift */; };
+		830702832432087E00C73383 /* ManualSignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830702822432087E00C73383 /* ManualSignInController.swift */; };
+		830702852433980D00C73383 /* ETSegueHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830702842433980D00C73383 /* ETSegueHandler.swift */; };
+		830A37AD245F929D00627B1E /* BRPtouchPrinterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830A37A6245F90DC00627B1E /* BRPtouchPrinterKit.framework */; };
+		830A37AE245F929D00627B1E /* BRPtouchPrinterKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 830A37A6245F90DC00627B1E /* BRPtouchPrinterKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		830A37B1245F94FD00627B1E /* BrotherPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830A37B0245F94FD00627B1E /* BrotherPrinter.swift */; };
+		8343845D241A0BA100748162 /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8343845C241A0BA100748162 /* credentials.plist */; };
+		8343845F241A0F0800748162 /* ETPList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8343845E241A0F0800748162 /* ETPList.swift */; };
+		83438461241A255200748162 /* GoogleSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83438460241A255200748162 /* GoogleSignIn.swift */; };
+		83438463241A577C00748162 /* ETViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83438462241A577C00748162 /* ETViewController.swift */; };
+		8345913524237094001276C9 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8345913424237094001276C9 /* DashboardViewController.swift */; };
+		83459137242B4349001276C9 /* GoogleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83459136242B4349001276C9 /* GoogleSheets.swift */; };
+		8358907E241A074500A72E80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8358907D241A074500A72E80 /* AppDelegate.swift */; };
+		83589080241A074500A72E80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8358907F241A074500A72E80 /* SceneDelegate.swift */; };
+		83589085241A074500A72E80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83589083241A074500A72E80 /* Main.storyboard */; };
+		83589087241A074700A72E80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83589086241A074700A72E80 /* Assets.xcassets */; };
+		8358908A241A074700A72E80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83589088241A074700A72E80 /* LaunchScreen.storyboard */; };
+		835F24E7241A58CD009AAD16 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F24E6241A58CD009AAD16 /* SignInViewController.swift */; };
+		8374DC692500ADC400F42440 /* ETUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8374DC682500ADC400F42440 /* ETUserDefaults.swift */; };
+		838E87F62487538300782638 /* previewLabel.html in Resources */ = {isa = PBXBuildFile; fileRef = 838E87F52487538300782638 /* previewLabel.html */; };
+		83A91B6A2421CB8800614492 /* ETHttpStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A91B692421CB8800614492 /* ETHttpStatus.swift */; };
+		83BF049E241B712600F19D2A /* DriveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF049D241B712600F19D2A /* DriveViewController.swift */; };
+		83BF04A0241F639200F19D2A /* GoogleDrive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF049F241F639200F19D2A /* GoogleDrive.swift */; };
+		83BF04A2241F641000F19D2A /* GoogleFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF04A1241F641000F19D2A /* GoogleFile.swift */; };
+		83BF04A4241FAA8C00F19D2A /* ETTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BF04A3241FAA8C00F19D2A /* ETTableViewController.swift */; };
+		83C2B65E24221DB200D3EB75 /* ETWebservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C2B65D24221DB200D3EB75 /* ETWebservice.swift */; };
+		83ECD8C12463DD230008342B /* ETPrintInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ECD8C02463DD230008342B /* ETPrintInteractionController.swift */; };
+		83EF0CDD247753AA00BCE7C7 /* label.html in Resources */ = {isa = PBXBuildFile; fileRef = 83EF0CDC247753AA00BCE7C7 /* label.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		830A37AF245F929D00627B1E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				830A37AE245F929D00627B1E /* BRPtouchPrinterKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6FAE3B116A6AABA01BA56F67 /* Pods-Eventhogh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eventhogh.debug.xcconfig"; path = "Target Support Files/Pods-Eventhogh/Pods-Eventhogh.debug.xcconfig"; sourceTree = "<group>"; };
+		8303C52524725DC100BC7A03 /* HTMLHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLHelper.swift; sourceTree = "<group>"; };
+		830702802432082500C73383 /* ETQRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETQRViewController.swift; sourceTree = "<group>"; };
+		830702822432087E00C73383 /* ManualSignInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualSignInController.swift; sourceTree = "<group>"; };
+		830702842433980D00C73383 /* ETSegueHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETSegueHandler.swift; sourceTree = "<group>"; };
+		830A37A6245F90DC00627B1E /* BRPtouchPrinterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BRPtouchPrinterKit.framework; path = ../BRPtouchPrinterKit/libs/BRPtouchPrinterKit.framework; sourceTree = "<group>"; };
+		830A37AA245F919E00627B1E /* BRPtouchPrinterKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = BRPtouchPrinterKit; path = ../BRPtouchPrinterKit; sourceTree = "<group>"; };
+		830A37B0245F94FD00627B1E /* BrotherPrinter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrotherPrinter.swift; sourceTree = "<group>"; };
+		8343845C241A0BA100748162 /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
+		8343845E241A0F0800748162 /* ETPList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETPList.swift; sourceTree = "<group>"; };
+		83438460241A255200748162 /* GoogleSignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignIn.swift; sourceTree = "<group>"; };
+		83438462241A577C00748162 /* ETViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETViewController.swift; sourceTree = "<group>"; };
+		8345913424237094001276C9 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		83459136242B4349001276C9 /* GoogleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSheets.swift; sourceTree = "<group>"; };
+		8358907A241A074500A72E80 /* Eventhogh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eventhogh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8358907D241A074500A72E80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8358907F241A074500A72E80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		83589084241A074500A72E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83589086241A074700A72E80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83589089241A074700A72E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8358908B241A074700A72E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		835F24E6241A58CD009AAD16 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		83651B62245F907500CBE599 /* BRPtouchPrinterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BRPtouchPrinterKit.framework; path = ../BRPtouchPrinterKitW/Frameworks/BRPtouchPrinterKit.framework; sourceTree = "<group>"; };
+		8374DC682500ADC400F42440 /* ETUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETUserDefaults.swift; sourceTree = "<group>"; };
+		838E87F52487538300782638 /* previewLabel.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = previewLabel.html; sourceTree = "<group>"; };
+		83A91B692421CB8800614492 /* ETHttpStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETHttpStatus.swift; sourceTree = "<group>"; };
+		83BF049D241B712600F19D2A /* DriveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveViewController.swift; sourceTree = "<group>"; };
+		83BF049F241F639200F19D2A /* GoogleDrive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleDrive.swift; sourceTree = "<group>"; };
+		83BF04A1241F641000F19D2A /* GoogleFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleFile.swift; sourceTree = "<group>"; };
+		83BF04A3241FAA8C00F19D2A /* ETTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETTableViewController.swift; sourceTree = "<group>"; };
+		83C2B65D24221DB200D3EB75 /* ETWebservice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ETWebservice.swift; sourceTree = "<group>"; };
+		83ECD8C02463DD230008342B /* ETPrintInteractionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETPrintInteractionController.swift; sourceTree = "<group>"; };
+		83EF0CDC247753AA00BCE7C7 /* label.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = label.html; sourceTree = "<group>"; };
+		85A9D53FE27A169F7E62C221 /* libPods-Eventhogh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Eventhogh.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5FB20C40E286800FAA7A4F /* Pods-Eventhogh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eventhogh.release.xcconfig"; path = "Target Support Files/Pods-Eventhogh/Pods-Eventhogh.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83589077241A074500A72E80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ADEDC5C5689B1CD36A93E7E /* libPods-Eventhogh.a in Frameworks */,
+				830A37AD245F929D00627B1E /* BRPtouchPrinterKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83589071241A074500A72E80 = {
+			isa = PBXGroup;
+			children = (
+				8358907C241A074500A72E80 /* Eventhogh */,
+				8358907B241A074500A72E80 /* Products */,
+				89AD1FE9EE67B1CEE69EB73C /* Pods */,
+				C3390FE15DDFFE6B1614F8FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8358907B241A074500A72E80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8358907A241A074500A72E80 /* Eventhogh.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8358907C241A074500A72E80 /* Eventhogh */ = {
+			isa = PBXGroup;
+			children = (
+				8358907D241A074500A72E80 /* AppDelegate.swift */,
+				8358907F241A074500A72E80 /* SceneDelegate.swift */,
+				8303C52524725DC100BC7A03 /* HTMLHelper.swift */,
+				8374DC682500ADC400F42440 /* ETUserDefaults.swift */,
+				83438462241A577C00748162 /* ETViewController.swift */,
+				83BF04A3241FAA8C00F19D2A /* ETTableViewController.swift */,
+				830702842433980D00C73383 /* ETSegueHandler.swift */,
+				830702802432082500C73383 /* ETQRViewController.swift */,
+				83ECD8C02463DD230008342B /* ETPrintInteractionController.swift */,
+				830702822432087E00C73383 /* ManualSignInController.swift */,
+				8345913424237094001276C9 /* DashboardViewController.swift */,
+				83BF049D241B712600F19D2A /* DriveViewController.swift */,
+				835F24E6241A58CD009AAD16 /* SignInViewController.swift */,
+				83438460241A255200748162 /* GoogleSignIn.swift */,
+				83BF049F241F639200F19D2A /* GoogleDrive.swift */,
+				83459136242B4349001276C9 /* GoogleSheets.swift */,
+				83BF04A1241F641000F19D2A /* GoogleFile.swift */,
+				830A37B0245F94FD00627B1E /* BrotherPrinter.swift */,
+				83C2B65D24221DB200D3EB75 /* ETWebservice.swift */,
+				8343845E241A0F0800748162 /* ETPList.swift */,
+				83A91B692421CB8800614492 /* ETHttpStatus.swift */,
+				83589083241A074500A72E80 /* Main.storyboard */,
+				83589088241A074700A72E80 /* LaunchScreen.storyboard */,
+				8358908B241A074700A72E80 /* Info.plist */,
+				8343845C241A0BA100748162 /* credentials.plist */,
+				83589086241A074700A72E80 /* Assets.xcassets */,
+				83EF0CDC247753AA00BCE7C7 /* label.html */,
+				838E87F52487538300782638 /* previewLabel.html */,
+			);
+			path = Eventhogh;
+			sourceTree = "<group>";
+		};
+		89AD1FE9EE67B1CEE69EB73C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FAE3B116A6AABA01BA56F67 /* Pods-Eventhogh.debug.xcconfig */,
+				CD5FB20C40E286800FAA7A4F /* Pods-Eventhogh.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C3390FE15DDFFE6B1614F8FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				830A37AA245F919E00627B1E /* BRPtouchPrinterKit */,
+				83651B62245F907500CBE599 /* BRPtouchPrinterKit.framework */,
+				830A37A6245F90DC00627B1E /* BRPtouchPrinterKit.framework */,
+				85A9D53FE27A169F7E62C221 /* libPods-Eventhogh.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83589079241A074500A72E80 /* Eventhogh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8358908E241A074700A72E80 /* Build configuration list for PBXNativeTarget "Eventhogh" */;
+			buildPhases = (
+				33C81FCF8FE17F9BA75D0F56 /* [CP] Check Pods Manifest.lock */,
+				83589076241A074500A72E80 /* Sources */,
+				83589077241A074500A72E80 /* Frameworks */,
+				83589078241A074500A72E80 /* Resources */,
+				6DE6B603F1A81881D76ECC92 /* [CP] Copy Pods Resources */,
+				830A37AF245F929D00627B1E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eventhogh;
+			productName = Eventhogh;
+			productReference = 8358907A241A074500A72E80 /* Eventhogh.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83589072241A074500A72E80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Gareth Fong";
+				TargetAttributes = {
+					83589079241A074500A72E80 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 83589075241A074500A72E80 /* Build configuration list for PBXProject "Eventhogh" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83589071241A074500A72E80;
+			productRefGroup = 8358907B241A074500A72E80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83589079241A074500A72E80 /* Eventhogh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83589078241A074500A72E80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8358908A241A074700A72E80 /* LaunchScreen.storyboard in Resources */,
+				8343845D241A0BA100748162 /* credentials.plist in Resources */,
+				838E87F62487538300782638 /* previewLabel.html in Resources */,
+				83EF0CDD247753AA00BCE7C7 /* label.html in Resources */,
+				83589087241A074700A72E80 /* Assets.xcassets in Resources */,
+				83589085241A074500A72E80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33C81FCF8FE17F9BA75D0F56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eventhogh-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DE6B603F1A81881D76ECC92 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eventhogh/Pods-Eventhogh-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eventhogh/Pods-Eventhogh-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eventhogh/Pods-Eventhogh-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83589076241A074500A72E80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83BF04A4241FAA8C00F19D2A /* ETTableViewController.swift in Sources */,
+				83BF04A2241F641000F19D2A /* GoogleFile.swift in Sources */,
+				83438461241A255200748162 /* GoogleSignIn.swift in Sources */,
+				830702832432087E00C73383 /* ManualSignInController.swift in Sources */,
+				830702812432082500C73383 /* ETQRViewController.swift in Sources */,
+				83C2B65E24221DB200D3EB75 /* ETWebservice.swift in Sources */,
+				83BF049E241B712600F19D2A /* DriveViewController.swift in Sources */,
+				830A37B1245F94FD00627B1E /* BrotherPrinter.swift in Sources */,
+				83438463241A577C00748162 /* ETViewController.swift in Sources */,
+				83BF04A0241F639200F19D2A /* GoogleDrive.swift in Sources */,
+				8345913524237094001276C9 /* DashboardViewController.swift in Sources */,
+				835F24E7241A58CD009AAD16 /* SignInViewController.swift in Sources */,
+				83ECD8C12463DD230008342B /* ETPrintInteractionController.swift in Sources */,
+				8358907E241A074500A72E80 /* AppDelegate.swift in Sources */,
+				830702852433980D00C73383 /* ETSegueHandler.swift in Sources */,
+				83459137242B4349001276C9 /* GoogleSheets.swift in Sources */,
+				8303C52624725DC100BC7A03 /* HTMLHelper.swift in Sources */,
+				8343845F241A0F0800748162 /* ETPList.swift in Sources */,
+				83A91B6A2421CB8800614492 /* ETHttpStatus.swift in Sources */,
+				83589080241A074500A72E80 /* SceneDelegate.swift in Sources */,
+				8374DC692500ADC400F42440 /* ETUserDefaults.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83589083241A074500A72E80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83589084241A074500A72E80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83589088241A074700A72E80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83589089241A074700A72E80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8358908C241A074700A72E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8358908D241A074700A72E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8358908F241A074700A72E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FAE3B116A6AABA01BA56F67 /* Pods-Eventhogh.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EVW82C399G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/GoogleSignIn/Frameworks\"",
+					/Users/user/documents/udemy/BRPtouchPrinterKit/libs,
+				);
+				INFOPLIST_FILE = Eventhogh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sg.com.futureready.Eventhogh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83589090241A074700A72E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD5FB20C40E286800FAA7A4F /* Pods-Eventhogh.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EVW82C399G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/GoogleSignIn/Frameworks\"",
+					/Users/user/documents/udemy/BRPtouchPrinterKit/libs,
+				);
+				INFOPLIST_FILE = Eventhogh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sg.com.futureready.Eventhogh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83589075241A074500A72E80 /* Build configuration list for PBXProject "Eventhogh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8358908C241A074700A72E80 /* Debug */,
+				8358908D241A074700A72E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8358908E241A074700A72E80 /* Build configuration list for PBXNativeTarget "Eventhogh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8358908F241A074700A72E80 /* Debug */,
+				83589090241A074700A72E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83589072241A074500A72E80 /* Project object */;
+}

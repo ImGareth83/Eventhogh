@@ -1,0 +1,6 @@
+module Pods_Eventhogh {
+  umbrella header "Pods-Eventhogh-umbrella.h"
+
+  export *
+  module * { export * }
+}
